@@ -65,6 +65,7 @@ but.place(x=100, y=70, width=70, height=30)
 
 root1.mainloop()
 
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((IP, PORT))
 if user:
